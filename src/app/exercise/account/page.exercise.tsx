@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link"
 
 export default function Page() {
   return (
@@ -11,7 +11,9 @@ export default function Page() {
         
         📑 Le lien vers la doc https://nextjs.org/docs/pages/api-reference/components/link
         */}
-        <Link href="/exercise/account/details">Page de detail du compte</Link>
+        <Link href="/exercise/account/details" scroll={false}>
+          Page de detail du compte
+        </Link>
       </div>
     </div>
   )
